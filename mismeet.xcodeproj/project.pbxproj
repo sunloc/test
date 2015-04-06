@@ -1,0 +1,749 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C5989F781AD018100037D054 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5989F771AD018100037D054 /* main.m */; };
+		C5989F7B1AD018100037D054 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5989F7A1AD018100037D054 /* AppDelegate.m */; };
+		C5989F841AD018100037D054 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5989F821AD018100037D054 /* Main.storyboard */; };
+		C5989F861AD018100037D054 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5989F851AD018100037D054 /* Images.xcassets */; };
+		C5989F891AD018100037D054 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5989F871AD018100037D054 /* LaunchScreen.xib */; };
+		C5989F951AD018100037D054 /* mismeetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5989F941AD018100037D054 /* mismeetTests.m */; };
+		C5989FA91AD0185C0037D054 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5989FA81AD0185C0037D054 /* InterfaceController.m */; };
+		C5989FAC1AD0185C0037D054 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5989FAB1AD0185C0037D054 /* NotificationController.m */; };
+		C5989FAF1AD0185C0037D054 /* GlanceController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5989FAE1AD0185C0037D054 /* GlanceController.m */; };
+		C5989FB11AD0185C0037D054 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5989FB01AD0185C0037D054 /* Images.xcassets */; };
+		C5989FB51AD0185C0037D054 /* mismeet WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = C5989FB41AD0185C0037D054 /* mismeet WatchKit App.app */; };
+		C5989FBD1AD0185C0037D054 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5989FBB1AD0185C0037D054 /* Interface.storyboard */; };
+		C5989FBF1AD0185C0037D054 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5989FBE1AD0185C0037D054 /* Images.xcassets */; };
+		C5989FC21AD0185C0037D054 /* mismeet WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C5989FA21AD0185C0037D054 /* mismeet WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C5989FCF1AD019C30037D054 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5989FCC1AD019C30037D054 /* FirstViewController.m */; };
+		C5989FD01AD019C30037D054 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5989FCE1AD019C30037D054 /* SecondViewController.m */; };
+		C5BE90CE1AD173AE00B774B0 /* MIMBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BE90CD1AD173AE00B774B0 /* MIMBaseModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C5989F8F1AD018100037D054 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5989F6A1AD018100037D054 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5989F711AD018100037D054;
+			remoteInfo = mismeet;
+		};
+		C5989FB61AD0185C0037D054 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5989F6A1AD018100037D054 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5989FB31AD0185C0037D054;
+			remoteInfo = "mismeet WatchKit App";
+		};
+		C5989FC01AD0185C0037D054 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5989F6A1AD018100037D054 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5989FA11AD0185C0037D054;
+			remoteInfo = "mismeet WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C5989FC91AD0185C0037D054 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C5989FC21AD0185C0037D054 /* mismeet WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C5989F721AD018100037D054 /* mismeet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mismeet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5989F761AD018100037D054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5989F771AD018100037D054 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C5989F791AD018100037D054 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C5989F7A1AD018100037D054 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C5989F831AD018100037D054 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C5989F851AD018100037D054 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C5989F881AD018100037D054 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C5989F8E1AD018100037D054 /* mismeetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mismeetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5989F931AD018100037D054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5989F941AD018100037D054 /* mismeetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mismeetTests.m; sourceTree = "<group>"; };
+		C5989FA21AD0185C0037D054 /* mismeet WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "mismeet WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5989FA51AD0185C0037D054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5989FA61AD0185C0037D054 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		C5989FA71AD0185C0037D054 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		C5989FA81AD0185C0037D054 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		C5989FAA1AD0185C0037D054 /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		C5989FAB1AD0185C0037D054 /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		C5989FAD1AD0185C0037D054 /* GlanceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlanceController.h; sourceTree = "<group>"; };
+		C5989FAE1AD0185C0037D054 /* GlanceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlanceController.m; sourceTree = "<group>"; };
+		C5989FB01AD0185C0037D054 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C5989FB41AD0185C0037D054 /* mismeet WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mismeet WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5989FBA1AD0185C0037D054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5989FBC1AD0185C0037D054 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		C5989FBE1AD0185C0037D054 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C5989FCB1AD019C30037D054 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		C5989FCC1AD019C30037D054 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		C5989FCD1AD019C30037D054 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		C5989FCE1AD019C30037D054 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		C5BE90CC1AD173AE00B774B0 /* MIMBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MIMBaseModel.h; path = mismeet/Model/MIMBaseModel.h; sourceTree = SOURCE_ROOT; };
+		C5BE90CD1AD173AE00B774B0 /* MIMBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MIMBaseModel.m; path = mismeet/Model/MIMBaseModel.m; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5989F6F1AD018100037D054 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5989F8B1AD018100037D054 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5989F9F1AD0185C0037D054 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C5989F691AD018100037D054 = {
+			isa = PBXGroup;
+			children = (
+				C5989F741AD018100037D054 /* mismeet */,
+				C5989F911AD018100037D054 /* mismeetTests */,
+				C5989FA31AD0185C0037D054 /* mismeet WatchKit Extension */,
+				C5989FB81AD0185C0037D054 /* mismeet WatchKit App */,
+				C5989F731AD018100037D054 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C5989F731AD018100037D054 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5989F721AD018100037D054 /* mismeet.app */,
+				C5989F8E1AD018100037D054 /* mismeetTests.xctest */,
+				C5989FA21AD0185C0037D054 /* mismeet WatchKit Extension.appex */,
+				C5989FB41AD0185C0037D054 /* mismeet WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5989F741AD018100037D054 /* mismeet */ = {
+			isa = PBXGroup;
+			children = (
+				C5BE90CF1AD178C500B774B0 /* Request */,
+				C5989FD11AD01B060037D054 /* Model */,
+				C5989FD21AD01B060037D054 /* Utility */,
+				C5989FD31AD01B060037D054 /* View */,
+				C5989FCA1AD019C30037D054 /* Controller */,
+				C5989F791AD018100037D054 /* AppDelegate.h */,
+				C5989F7A1AD018100037D054 /* AppDelegate.m */,
+				C5989F821AD018100037D054 /* Main.storyboard */,
+				C5989F851AD018100037D054 /* Images.xcassets */,
+				C5989F871AD018100037D054 /* LaunchScreen.xib */,
+				C5989F751AD018100037D054 /* Supporting Files */,
+			);
+			path = mismeet;
+			sourceTree = "<group>";
+		};
+		C5989F751AD018100037D054 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5989F761AD018100037D054 /* Info.plist */,
+				C5989F771AD018100037D054 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C5989F911AD018100037D054 /* mismeetTests */ = {
+			isa = PBXGroup;
+			children = (
+				C5989F941AD018100037D054 /* mismeetTests.m */,
+				C5989F921AD018100037D054 /* Supporting Files */,
+			);
+			path = mismeetTests;
+			sourceTree = "<group>";
+		};
+		C5989F921AD018100037D054 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5989F931AD018100037D054 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C5989FA31AD0185C0037D054 /* mismeet WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C5989FA71AD0185C0037D054 /* InterfaceController.h */,
+				C5989FA81AD0185C0037D054 /* InterfaceController.m */,
+				C5989FAA1AD0185C0037D054 /* NotificationController.h */,
+				C5989FAB1AD0185C0037D054 /* NotificationController.m */,
+				C5989FAD1AD0185C0037D054 /* GlanceController.h */,
+				C5989FAE1AD0185C0037D054 /* GlanceController.m */,
+				C5989FB01AD0185C0037D054 /* Images.xcassets */,
+				C5989FA41AD0185C0037D054 /* Supporting Files */,
+			);
+			path = "mismeet WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		C5989FA41AD0185C0037D054 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5989FA51AD0185C0037D054 /* Info.plist */,
+				C5989FA61AD0185C0037D054 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C5989FB81AD0185C0037D054 /* mismeet WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				C5989FBB1AD0185C0037D054 /* Interface.storyboard */,
+				C5989FBE1AD0185C0037D054 /* Images.xcassets */,
+				C5989FB91AD0185C0037D054 /* Supporting Files */,
+			);
+			path = "mismeet WatchKit App";
+			sourceTree = "<group>";
+		};
+		C5989FB91AD0185C0037D054 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5989FBA1AD0185C0037D054 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C5989FCA1AD019C30037D054 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C5989FCB1AD019C30037D054 /* FirstViewController.h */,
+				C5989FCC1AD019C30037D054 /* FirstViewController.m */,
+				C5989FCD1AD019C30037D054 /* SecondViewController.h */,
+				C5989FCE1AD019C30037D054 /* SecondViewController.m */,
+			);
+			name = Controller;
+			path = controller;
+			sourceTree = "<group>";
+		};
+		C5989FD11AD01B060037D054 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C5BE90CC1AD173AE00B774B0 /* MIMBaseModel.h */,
+				C5BE90CD1AD173AE00B774B0 /* MIMBaseModel.m */,
+			);
+			name = Model;
+			path = model;
+			sourceTree = "<group>";
+		};
+		C5989FD21AD01B060037D054 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Utility;
+			path = utility;
+			sourceTree = "<group>";
+		};
+		C5989FD31AD01B060037D054 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			path = view;
+			sourceTree = "<group>";
+		};
+		C5BE90CF1AD178C500B774B0 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5989F711AD018100037D054 /* mismeet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5989F981AD018100037D054 /* Build configuration list for PBXNativeTarget "mismeet" */;
+			buildPhases = (
+				C5989F6E1AD018100037D054 /* Sources */,
+				C5989F6F1AD018100037D054 /* Frameworks */,
+				C5989F701AD018100037D054 /* Resources */,
+				C5989FC91AD0185C0037D054 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5989FC11AD0185C0037D054 /* PBXTargetDependency */,
+			);
+			name = mismeet;
+			productName = mismeet;
+			productReference = C5989F721AD018100037D054 /* mismeet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C5989F8D1AD018100037D054 /* mismeetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5989F9B1AD018100037D054 /* Build configuration list for PBXNativeTarget "mismeetTests" */;
+			buildPhases = (
+				C5989F8A1AD018100037D054 /* Sources */,
+				C5989F8B1AD018100037D054 /* Frameworks */,
+				C5989F8C1AD018100037D054 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5989F901AD018100037D054 /* PBXTargetDependency */,
+			);
+			name = mismeetTests;
+			productName = mismeetTests;
+			productReference = C5989F8E1AD018100037D054 /* mismeetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C5989FA11AD0185C0037D054 /* mismeet WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5989FC61AD0185C0037D054 /* Build configuration list for PBXNativeTarget "mismeet WatchKit Extension" */;
+			buildPhases = (
+				C5989F9E1AD0185C0037D054 /* Sources */,
+				C5989F9F1AD0185C0037D054 /* Frameworks */,
+				C5989FA01AD0185C0037D054 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5989FB71AD0185C0037D054 /* PBXTargetDependency */,
+			);
+			name = "mismeet WatchKit Extension";
+			productName = "mismeet WatchKit Extension";
+			productReference = C5989FA21AD0185C0037D054 /* mismeet WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		C5989FB31AD0185C0037D054 /* mismeet WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5989FC31AD0185C0037D054 /* Build configuration list for PBXNativeTarget "mismeet WatchKit App" */;
+			buildPhases = (
+				C5989FB21AD0185C0037D054 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "mismeet WatchKit App";
+			productName = "mismeet WatchKit App";
+			productReference = C5989FB41AD0185C0037D054 /* mismeet WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5989F6A1AD018100037D054 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = sunloc;
+				TargetAttributes = {
+					C5989F711AD018100037D054 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					C5989F8D1AD018100037D054 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = C5989F711AD018100037D054;
+					};
+					C5989FA11AD0185C0037D054 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					C5989FB31AD0185C0037D054 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = C5989F6D1AD018100037D054 /* Build configuration list for PBXProject "mismeet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C5989F691AD018100037D054;
+			productRefGroup = C5989F731AD018100037D054 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5989F711AD018100037D054 /* mismeet */,
+				C5989F8D1AD018100037D054 /* mismeetTests */,
+				C5989FA11AD0185C0037D054 /* mismeet WatchKit Extension */,
+				C5989FB31AD0185C0037D054 /* mismeet WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5989F701AD018100037D054 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5989F841AD018100037D054 /* Main.storyboard in Resources */,
+				C5989F891AD018100037D054 /* LaunchScreen.xib in Resources */,
+				C5989F861AD018100037D054 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5989F8C1AD018100037D054 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5989FA01AD0185C0037D054 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5989FB11AD0185C0037D054 /* Images.xcassets in Resources */,
+				C5989FB51AD0185C0037D054 /* mismeet WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5989FB21AD0185C0037D054 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5989FBD1AD0185C0037D054 /* Interface.storyboard in Resources */,
+				C5989FBF1AD0185C0037D054 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5989F6E1AD018100037D054 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5989FD01AD019C30037D054 /* SecondViewController.m in Sources */,
+				C5989F7B1AD018100037D054 /* AppDelegate.m in Sources */,
+				C5989FCF1AD019C30037D054 /* FirstViewController.m in Sources */,
+				C5BE90CE1AD173AE00B774B0 /* MIMBaseModel.m in Sources */,
+				C5989F781AD018100037D054 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5989F8A1AD018100037D054 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5989F951AD018100037D054 /* mismeetTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5989F9E1AD0185C0037D054 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5989FAC1AD0185C0037D054 /* NotificationController.m in Sources */,
+				C5989FA91AD0185C0037D054 /* InterfaceController.m in Sources */,
+				C5989FAF1AD0185C0037D054 /* GlanceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C5989F901AD018100037D054 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5989F711AD018100037D054 /* mismeet */;
+			targetProxy = C5989F8F1AD018100037D054 /* PBXContainerItemProxy */;
+		};
+		C5989FB71AD0185C0037D054 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5989FB31AD0185C0037D054 /* mismeet WatchKit App */;
+			targetProxy = C5989FB61AD0185C0037D054 /* PBXContainerItemProxy */;
+		};
+		C5989FC11AD0185C0037D054 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5989FA11AD0185C0037D054 /* mismeet WatchKit Extension */;
+			targetProxy = C5989FC01AD0185C0037D054 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C5989F821AD018100037D054 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5989F831AD018100037D054 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C5989F871AD018100037D054 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5989F881AD018100037D054 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		C5989FBB1AD0185C0037D054 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5989FBC1AD0185C0037D054 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C5989F961AD018100037D054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C5989F971AD018100037D054 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5989F991AD018100037D054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = mismeet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C5989F9A1AD018100037D054 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = mismeet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C5989F9C1AD018100037D054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = mismeetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mismeet.app/mismeet";
+			};
+			name = Debug;
+		};
+		C5989F9D1AD018100037D054 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = mismeetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mismeet.app/mismeet";
+			};
+			name = Release;
+		};
+		C5989FC41AD0185C0037D054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = mismeet_WatchKit_Extension;
+				INFOPLIST_FILE = "mismeet WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		C5989FC51AD0185C0037D054 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = mismeet_WatchKit_Extension;
+				INFOPLIST_FILE = "mismeet WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		C5989FC71AD0185C0037D054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "mismeet WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C5989FC81AD0185C0037D054 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "mismeet WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5989F6D1AD018100037D054 /* Build configuration list for PBXProject "mismeet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5989F961AD018100037D054 /* Debug */,
+				C5989F971AD018100037D054 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5989F981AD018100037D054 /* Build configuration list for PBXNativeTarget "mismeet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5989F991AD018100037D054 /* Debug */,
+				C5989F9A1AD018100037D054 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5989F9B1AD018100037D054 /* Build configuration list for PBXNativeTarget "mismeetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5989F9C1AD018100037D054 /* Debug */,
+				C5989F9D1AD018100037D054 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5989FC31AD0185C0037D054 /* Build configuration list for PBXNativeTarget "mismeet WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5989FC41AD0185C0037D054 /* Debug */,
+				C5989FC51AD0185C0037D054 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5989FC61AD0185C0037D054 /* Build configuration list for PBXNativeTarget "mismeet WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5989FC71AD0185C0037D054 /* Debug */,
+				C5989FC81AD0185C0037D054 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5989F6A1AD018100037D054 /* Project object */;
+}
